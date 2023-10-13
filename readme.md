@@ -1,3 +1,7 @@
+# Temporary-Goals-for-Exploration
+Published at NeurIPS 2022 Deep Reinforcement Learning Workshop
+
+
 # `mrl`: modular RL
 
 This is a modular RL code base for research. The intent is to enable surgical modifications by designing the base agent as a list of modules that all live inside the agent's global namespace (so they can all access each other directly by name). This means we can change the algorithm of a complex hierarchical, multi-goal, intrinsically motivated, etc. agent from DDPG to SAC by simply changing the algorithm module (and adding the additional critic network). Similarly, to add something like a forward model, intrinsic motivation, landmark generation, a new HER strategy, etc., you only need to create/modify the relevant module(s). 
