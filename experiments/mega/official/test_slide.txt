@@ -1,0 +1,2 @@
+python experiments/mega/train_mega.py --env slide2_obj_obj --tb f2bestswapslide2 --max_steps 10000000 --seed 111 --save_embeddings --replay_size 10000000 --ag_curiosity minkde --ikde --goaldim 3 --goalnum 2 --num_sampled_ags 125
+python experiments/mega/train_mega.py --env slide2_obj_obj --tb f2bestslide2 --max_steps 10000000 --seed 111 --save_embeddings --replay_size 10000000 --ag_curiosity minkde --goaldim 3 --goalnum 2 --num_sampled_ags 125 

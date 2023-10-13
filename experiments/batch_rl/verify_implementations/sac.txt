@@ -1,0 +1,12 @@
+python experiments/batch_rl/train_online_agent.py --alg sac --env HalfCheetah-v3 --seed 1 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env HalfCheetah-v3 --seed 2 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env HalfCheetah-v3 --seed 3 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env Hopper-v3 --seed 1 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env Hopper-v3 --seed 2 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env Hopper-v3 --seed 3 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env Walker2d-v3 --seed 1 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env Walker2d-v3 --seed 2 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env Walker2d-v3 --seed 3 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env Ant-v3 --seed 1 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env Ant-v3 --seed 2 --save_replay_buf True
+python experiments/batch_rl/train_online_agent.py --alg sac --env Ant-v3 --seed 3 --save_replay_buf True

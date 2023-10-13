@@ -1,0 +1,12 @@
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env HalfCheetah-v3 --seed 1
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env HalfCheetah-v3 --seed 2
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env HalfCheetah-v3 --seed 3
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env Hopper-v3 --seed 1
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env Hopper-v3 --seed 2
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env Hopper-v3 --seed 3
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env Walker2d-v3 --seed 1
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env Walker2d-v3 --seed 2
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env Walker2d-v3 --seed 3
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env Ant-v3 --seed 1
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env Ant-v3 --seed 2
+python experiments/batch_rl/train_online_agent.py --alg ddpg --env Ant-v3 --seed 3
